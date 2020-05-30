@@ -1,0 +1,15 @@
+language: generic
+
+# Enable root
+sudo: required
+
+# What binaries to load
+services:
+  - docker
+
+before_install:
+  - docker build -t knoppers412/docker-react -f Dockerfile.dev .
+
+# CI=true => tests will only run once instead of launching the watcher.
+script:
+  - docker run -e CI=true knoppers412/docker-react npm run test

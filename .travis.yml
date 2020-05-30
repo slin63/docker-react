@@ -20,7 +20,7 @@ deploy:
   provider: elasticbeanstalk
 
   # AWS deploy region
-  region: "us-east-2"
+  region: "us-east-1"
 
   # The actual application name of the thing
   app: "docker-react"

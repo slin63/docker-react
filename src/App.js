@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          I am a fuckin'g fish pizza
+          I am a fuckin'g fish pizza, but what are you?
         </a>
       </header>
     </div>
